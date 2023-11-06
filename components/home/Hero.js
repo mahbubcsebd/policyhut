@@ -41,7 +41,7 @@ function Hero() {
                               <div className={styles.buttonCollections}>
                                   <Link
                                       className="btnBlue"
-                                      href="purchases-course.html"
+                                      href="#"
                                   >
                                       Let&apos;s Get Started
                                   </Link>
