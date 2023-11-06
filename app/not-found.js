@@ -11,9 +11,9 @@ import styles from './notFound.module.css';
 
 function PageNotFound() {
     const router = useRouter();
-        //   setTimeout(() => {
-        //       router.push('/');
-        //   }, 5000);
+          setTimeout(() => {
+              router.push('/');
+          }, 5000);
     return (
         <div className="">
             <div
