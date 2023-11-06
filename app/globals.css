@@ -638,6 +638,12 @@ button,
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: -1;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none !important;
 }
 
 .form-img {
