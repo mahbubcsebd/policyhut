@@ -1,20 +1,15 @@
-'use client';
-
+import "@/app/globals.css";
+import Header from '@/components/global/Header';
 import error from '@/public/images/404.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
 import { Col, Container, Row } from 'react-bootstrap';
-import styles from './error.module.css';
 
 function PageNotFound() {
-    const router = useRouter();
-    setTimeout(() => {
-        router.push('/');
-    }, 5000);
     return (
         <div className="">
+            <Header />
             <div
                 id="notFoundPage"
                 className="notFoundPage"
@@ -22,24 +17,24 @@ function PageNotFound() {
                 <div className="notFoundArea section">
                     <Container>
                         <Row className="justify-content-center">
-                            <Col lg={6}>
-                                <div className={styles.notFoundContent}>
+                            <Col lg={8}>
+                                <div className="notFound-content">
                                     <Image
                                         src={error}
                                         alt="404"
                                     />
 
-                                    <h2 className={styles.notFoundTitle}>
+                                    <h2 className="notFoundTitle">
                                         404 Page Not Found
                                     </h2>
-                                    <p className={styles.notFoundText}>
+                                    <p className="notFoundText">
                                         This page is incidentally inaccessible
                                         because of support. We will back very
                                         before long much obliged for your
                                         understanding
                                     </p>
                                     <Link
-                                        className="btnBlue"
+                                        className="btn btn-orange"
                                         href="/"
                                     >
                                         Go Back To Homepage
