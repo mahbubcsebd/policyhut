@@ -1,0 +1,158 @@
+.heroArea {
+    padding: 100px 0;
+    background: #d9eaf5;
+    position: relative;
+}
+
+.heroBg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.heroContainer {
+    position: relative;
+    z-index: 9;
+}
+
+.heroContent .heroTitle {
+    color: var(--gray-900, #0e1941);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 78px;
+    margin-bottom: 18px;
+}
+
+.heroContent .heroText {
+    color: var(--gray-900, #0e1941);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 40px;
+}
+
+.buttonCollections {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 50px;
+}
+
+.heroMember {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.heroMember ul {
+    display: flex;
+}
+
+.heroMember ul li {
+    margin-left: -10px;
+    border: 2px solid #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.heroMember ul li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.heroMember p {
+    color: var(--gray-900, #0e1941);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+/* Hero 2 */
+.heroTwo .heroBg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive */
+@media screen and (max-width: 1600px) {
+}
+
+@media screen and (max-width: 1440px) {
+    .heroContent .heroTitle {
+        font-size: 55px !important;
+        line-height: 75px !important;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1366px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 992px) {
+    .heroContent .heroTitle {
+        font-size: 45px !important;
+        line-height: 60px !important;
+    }
+
+    .heroBg {
+        display: none;
+    }
+
+    .heroBg {
+        display: none;
+    }
+
+    .heroArea {
+        padding: 70px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .heroMember {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .heroContent .heroTitle {
+        font-size: 36px !important;
+        line-height: 55px !important;
+    }
+
+    .heroMember p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .heroContent .heroTitle {
+        font-size: 32px !important;
+        line-height: 45px !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+}

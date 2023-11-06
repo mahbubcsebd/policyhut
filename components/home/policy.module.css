@@ -1,0 +1,71 @@
+.customerCollections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 36px;
+}
+
+.customerCollections .singleCustomer h2 {
+    color: var(--gray-900, #0e1941);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 8px;
+}
+
+.customerCollections .singleCustomer p {
+    color: var(--gray-700, #3e4767);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1600px) {
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1366px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 992px) {
+    .customerCollections .singleCustomer h2 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .customerCollections .singleCustomer h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .sectionTitle {
+        font-size: 32px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 360px) {
+}

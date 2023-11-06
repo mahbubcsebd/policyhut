@@ -1,0 +1,89 @@
+.pageBannerArea {
+    position: relative;
+    height: 400px;
+}
+
+.bannerBg {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bannerImg {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 0;
+}
+
+.bannerContent {
+    position: relative;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bannerContent h2 {
+    color: var(--gray-900, #0e1941);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: -1.2px;
+    text-transform: capitalize;
+}
+
+.bannerContent p {
+    color: var(--gray-700, #3e4767);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+
+/* Responsive */
+@media screen and (max-width: 1600px) {
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1366px) {
+}
+
+@media screen and (max-width: 1200px) {
+    .bannerContent h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+    .bannerContent h2 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 360px) {
+}

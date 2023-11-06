@@ -1,0 +1,297 @@
+.insuranceBox {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    overflow: hideen;
+    background-color: #fff;
+    border: 1px solid var(--primary-300, #e5ebf5);
+}
+
+.getwaySingle {
+    margin-bottom: 40px;
+}
+
+.insuranceTitleBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #0033a0;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.insuranceTitleBar .insuranceTitle {
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.contentTitle {
+    color: var(--gray-900, #0e1941);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 24px;
+    padding: 0 30px;
+    padding-top: 0;
+}
+
+.insuranceContent {
+    padding: 30px;
+}
+
+/* Add Details Start */
+.getwayTitle {
+    color: var(--gray-900, #0e1941);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 18px;
+}
+.policyDetailsBox {
+    padding: 30px;
+    background-color: #f8fafc;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.policyDetailsBox ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    gap: 20px;
+}
+
+.policyDetailsBox ul li p:last-child {
+    text-align: right;
+}
+
+.pdTitle {
+    color: var(--gray-700, #3e4767);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.pdText {
+    color: var(--gray-900, #0e1941);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.amountRadio {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.paymentMethodBox {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.singlePaymentMethod {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    border: 1px solid var(--primary-300, #e5ebf5);
+    background: #fff;
+}
+
+.singlePaymentMethod input {
+    position: absolute;
+    cursor: pointer;
+    top: 12px;
+    right: 12px;
+}
+
+.singlePaymentMethod label {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 0;
+}
+/* Add Details End */
+
+/* Insurance Update Start */
+.insuranceUpdateTitle h2 {
+    color: var(--gray-900, #0e1941);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.insuranceTopBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.insuranceFilter {
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.insuranceSingleFilter input,
+.insuranceSingleFilter select {
+    width: 170px;
+}
+
+.insuranceExport {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.insuranceExportBtn {
+    border-radius: 8px;
+    background: var(--primary-900, #0033a0) !important;
+    padding: 18px 24px;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.insuranceTable thead {
+    background-color: #e5ebf5;
+    border-radius: 0 20px 20px 0;
+    -webkit-border-radius: 0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    -ms-border-radius: 0 20px 20px 0;
+    -o-border-radius: 0 20px 20px 0;
+}
+
+.insuranceTable thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.insuranceTable thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.insuranceTable thead th {
+    color: var(--gray-700, #3e4767);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 30px 20px;
+}
+
+.insuranceTable tr td {
+    background-color: #fff;
+    color: var(--gray-900, #0e1941);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 30px 20px;
+}
+
+.activeStatus,
+.deactiveStatus {
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    background-color: #0033a0;
+    padding: 8px 14px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    display: inline-block;
+}
+
+.deactiveStatus {
+    background-color: #eb2d2d;
+}
+
+.actionBtnBox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.actionBtnBox img {
+    width: 30px;
+}
+
+/* Insurance Update End */
+
+/* Responsive */
+@media screen and (max-width: 1600px) {
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1366px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 992px) {
+    .insuranceTopBox {
+        align-items: start;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contentTitle {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .insuranceTopBox {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 360px) {
+}

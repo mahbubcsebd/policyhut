@@ -1,0 +1,20 @@
+.next-breadcrumb-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.next-breadcrumb-item a {
+    color: #0033a0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.next-breadcrumb-item.active a {
+    color: red !important;
+}

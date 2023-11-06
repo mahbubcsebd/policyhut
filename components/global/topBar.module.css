@@ -1,0 +1,67 @@
+.topBar {
+    background: #0033a0;
+    padding: 12px 0;
+}
+
+.topBarInner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topBarLeft p {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 8px;
+}
+
+.topBarRight {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.topBarRight p {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 8px;
+}
+
+.topBarSocial {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.topBarSocial a {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #1a47a9;
+}
+
+@media screen and (max-width: 992px) {
+    .emailAddress {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .topBar {
+        display: none;
+    }
+}

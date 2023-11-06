@@ -1,0 +1,41 @@
+.singleFeedback {
+    background: #fff;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    overflow: hidden;
+}
+.feedbackContent .msg {
+    color: var(--gray-900, #0e1941);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 30px 24px;
+}
+.feedbackAuthor {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 30px 24px;
+    background: #f2f5fa;
+}
+
+.authorName {
+    color: var(--gray-900, #0e1941);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.designation {
+    color: var(--gray-900, #0e1941);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
