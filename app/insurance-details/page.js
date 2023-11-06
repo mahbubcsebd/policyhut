@@ -1,4 +1,4 @@
-import InsuranceAddDetails from '@/components/insurance/insuranceAddDetails';
+import InsuranceAddDetails from '@/components/insurance/InsuranceAddDetails';
 
 export const metadata = {
     title: 'Policyhut | Insurance Details',
